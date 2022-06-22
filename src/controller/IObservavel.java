@@ -2,5 +2,5 @@ package controller;
 
 public interface IObservavel {
 	
-	public void notificaMudanca(String postagem);
+	public void notificaMudanca(int num);
 }

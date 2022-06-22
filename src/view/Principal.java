@@ -1,12 +1,12 @@
 package view;
 
-import controller.CriadorConteudo;
-import controller.Inscrito;
+import controller.MandaNumero;
 
 public class Principal {
 	public static void main(String[] args) {
-		Inscrito ins = new Inscrito();
-		CriadorConteudo cri = new CriadorConteudo(ins);
-		cri.postar();
+		MandaNumero ma = new MandaNumero();
+		for (int i = 0; i < 10; i++) {
+			ma.geraNumero();
+		}
 	}
 }
